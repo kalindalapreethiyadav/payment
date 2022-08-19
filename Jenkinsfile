@@ -1,11 +1,5 @@
 @Library('roboshop-shared-library@main') _
 
-env.COMPONENT="cart"
-env.APP_TYPE="nodejs"
-nodejs()
+env.COMPONENT="payment"
+python()
 
-@Library('roboshop-shared-library@main') _
-
-env.COMPONENT="shipping"
-env.APP_TYPE="java"
-maven()
